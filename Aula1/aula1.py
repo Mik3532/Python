@@ -23,3 +23,20 @@ idade2 = int(input("Digite sua idade: "))
 print (f"Ola, Bem vindo(a) '{nome2} voce tem {idade2} anos então voce e corno")
 print (type(nome2), type(idade2))
 
+
+
+
+
+import os
+import time
+
+cont = int(input("Digite um numero inteiro: "))
+
+while cont >=0:
+    os.system("cls") #limpar o terminal 
+    print (f"contagem regressiva: {cont}... ")
+    time.sleep(1)#atrasa o proximo comando
+    cont -= 1
+
+os.system("cls")
+print ("BOOOOMMMMMMM!")
